@@ -27,8 +27,9 @@ describe('build-cloudfoundry', () => {
 
     expect(await project.read('dist/static.json')).toEqual({
       https_only: true,
+      root: './',
       routes: {
-        '**': 'index.html'
+        '/**': 'index.html'
       }
     });
   }));

@@ -1,7 +1,7 @@
 {
   "name": "build-heroku",
   "stage": "config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Configures a Heroku static application",
   "keywords": [],
   "homepage": "https://github.com/vinsonchuong/build-heroku",
